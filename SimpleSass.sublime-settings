@@ -1,0 +1,29 @@
+// SimpleSASS default settings.
+//
+// In order to tweak the settings, you should NOT edit this file, but instead
+// the user-specific, empty-by-default version under "Preferences / Package
+// Settings / SimpleSASS / Settings - User".
+//
+// See SimpleSASS' README for detailed instructions.
+{
+	// Absolute route to the SassC executable (http://github.com/sass/sassc)
+	"compilerPath": "C:/src/sassc/bin/sassc.exe",
+
+	// Where the output file will be created
+	// Can be a relative path, for example "css/" or "../css/" (must finish with a slash "/").
+	// If this path is empty, the file will be created at the same directory as the compiled input file.
+	"outputDirectory": "../css/",
+
+	// Paths to files that must be re-compiled when an ignored source file (ex.: _a.scss) is saved.
+	// Paths are relative to this file's root directory in Sublime Text.
+	// Use this to automatically re-compile the files where ignored files are imported.
+	"filesToCompile": ["scss/main.scss"],
+
+	// The extension of the output file
+	"outputExtension": ".css",
+
+	// Array of file extensions that SimpleSass will try to compile on file save.
+	// Per notation, filenames that start with the "_" character will be ignored.
+	"sourceExtensions": [".sass", ".scss"]
+
+}
